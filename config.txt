@@ -1,0 +1,7 @@
+--lua-init=@zapret-lib.lua 
+--lua-init=@zapret-antidpi.lua 
+--lua-init=@zapret-auto.lua
+
+--wf-tcp-out=443
+        
+--filter-tcp=443 --filter-l7=tls --hostlist=youtube.txt --payload=tls_client_hello --lua-desync=hostfakesplit:tcp_md5:midhost=midsld
